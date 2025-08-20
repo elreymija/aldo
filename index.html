@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Mecánico "EL GORDO"</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('fondo_t.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #0e0d0d;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+        .titulo {
+            font-size: 54px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .menu {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .menu a {
+            color: #0c0c0c;
+            text-decoration: none;
+            margin-right: 40px;
+        }
+        .menu a:hover {
+            color: #ffcc00;
+        }
+        .contenido {
+            margin-top: 50px;
+        }
+        .redes-sociales {
+            position: fixed;
+            bottom: 40px;
+            left: 40px;
+        }
+        .comentarios {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="col-3">
+                <img src="logo_taller.jpg" alt="Logo" class="logo">
+            </div>
+            <div class="col-6 titulo">
+                Taller Mecánico "EL GORDO"
+            </div>
+            <div class="col-3">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI3NYxSnz9KgUH76HoxwA8gfF_rD3DeeZHH6ZKJE3y_bEOSA/viewform?usp=sf_link" class="btn btn-warning btn-lg float-right">Agendar Cita</a>
+            </div>
+        </div>
+        <div class="row menu">
+            <div class="col">
+                <a href="servicios.html">Servicios</a>
+                <a href="paquetes.html">Paquetes</a>
+                <a href="productos.html">Productos</a>
+                <a href="promociones.html">Promociones</a>
+                <a href="galeria.html">Galería de Imágenes</a>
+            </div>
+        </div>
+    </header>
+
+<!-- Botón flotante -->
+<div id="chat-button">💬</div>
+
+<!-- Ventana del chat -->
+<div id="chat-window" class="hidden">
+    <div id="chat-header">Chatbot</div>
+    <div id="chat-box"></div>
+    <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
+    <button id="send-btn">Enviar</button>
+</div>
+
+<!-- CSS y JS del chatbot -->
+<link rel="stylesheet" href="stylechat.css">
+<script src="scriptchat.js"></script>
+
+
+
+    <div class="container contenido">
+        <div class="row">
+            <div class="col">
+                <h2>¿Quiénes Somos y Qué Hacemos?</h2>
+                <p>SOMOS UN TALLER DE REPARACIONES AUTOMOTRICES. DAMOS MANTENIMIENTO PREVENTIVO Y
+                     CORRECTIVO A TU AUTO O CAMIONETA.</p>
+                <p>ADEMAS TENEMOS DIVERSOS PAQUETES DE SERVICIOS, ALGUNAS PROMOCIONES EN ARTICULOS
+                     PARA TU AUTO Y PAQUETES DE SERVICIOS A UN EXCELENTE PRECIO.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="redes-sociales">
+        <a href="https://www.facebook.com"><img src="logo_facebook.png" alt="Facebook" class="logo"></a>
+        <a href="https://www.instagram.com"><img src="logo_instagram.jpg" alt="Instagram" class="logo"></a>
+        <a href="https://wa.me/1234567890"><img src="logo_whatsapp.jpg" alt="WhatsApp" class="logo"></a>
+    </div>
+
+    <div class="comentarios">
+        <!-- Aquí puedes implementar la sección de comentarios -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
