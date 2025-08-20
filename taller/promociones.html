@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promociones</title>
+  <!-- Enlace al archivo CSS de Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+        background-image: url('fondo_t.jpg');
+        background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+        background-position: center; /* Posición de la imagen en el centro */
+    }
+    </style>
+  <style>
+    /* Estilo personalizado para la promoción */
+    .promocion {
+      background-color: #deec1a; /* Fondo rojo claro */
+      border: 5px solid #470e147a; /* Borde rojo */
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center; /* Centrar contenido */
+    }
+    
+    .precio {
+      font-size: 30px; /* Tamaño grande de fuente */
+      color: #eb160f; /* Texto rojo */
+      margin-bottom: 10px;
+    }
+    
+    .descripcion {
+      margin-bottom: 20px;
+    }
+    
+    img {
+      max-width: 100%; /* Ajustar imagen al ancho del contenedor */
+      height: auto; /* Mantener la proporción de aspecto */
+    }
+  </style>
+</head>
+<body>
+  <a class="btn btn-warning" href="index.html" role="button">INICIO</a>
+  <div class="container">
+    <h1>Promociones</h1>
+    <div class="row">
+      <!-- Primer producto -->
+      <div class="col-md-4">
+        <div class="promocion">
+          <img src="promocion_refrigerante.jpg" alt="Producto 1">
+          <div class="precio">30% de descuento</div>
+          <p class="descripcion">EN TODO EL REFRIGERANTE PARA AUTO.</p>
+        </div>
+      </div>
+      <!-- Segundo producto -->
+      <div class="col-md-4">
+        <div class="promocion">
+          <img src="promocion_bujias.jpg" alt="Producto 2">
+          <div class="precio">Oferta especial</div>
+          <p class="descripcion">BUJIAS DE IRIDIO A MITAD DE PRECIO.</p>
+        </div>
+      </div>
+      <!-- Tercer producto -->
+      <div class="col-md-4">
+        <div class="promocion">
+          <img src="promocion_afinacion.jpg" alt="Producto 3">
+          <div class="precio">¡Solo hoy!</div>
+          <p class="descripcion">SI COMPRAS TU KIT DE AFINACION, EL SERVICIO ES GRATIS.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
